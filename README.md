@@ -19,6 +19,7 @@ ORGANIZATION
 DATE
 NUMBER
 DESIGNATION
+TIME
 ```
 If you want to read more about the dataset check this paper [Urdu NER](https://www.researchgate.net/profile/Ali_Daud2/publication/312218764_Named_Entity_Dataset_for_Urdu_Named_Entity_Recognition_Task/links/5877354d08ae8fce492efe1f.pdf).
 ### Note
