@@ -1,5 +1,5 @@
 ## POS dataset
-Urdu dataset for POS training. This is a small dataset to be used for training parts of speech tagging for Urdu Language.
+Urdu dataset for POS training. This is a small dataset and can be used for training parts of speech tagging for Urdu Language.
 Structure of the dataset is simple i.e.
 ```text
 word TAG
@@ -11,7 +11,7 @@ To get large dataset, you need to purchase the license. Contact: `virtuoso.irfan
 
 ## UNER Dataset
 Happy to announce that UNER (Urdu Named Entity Recognition) dataset is available for NLP apps.
-Here are NER tags which are used in the dataset:
+Following are NER tags which are used to build the dataset:
 ```text
 PERSON
 LOCATION
@@ -26,5 +26,5 @@ If you want to read more about the dataset check this paper [Urdu NER](https://w
 NER Dataset is in `utf-16` format.
 
 ## SpaCy
-I've also contributed to famous NLP library `SpaCy`. You can use `Urdu` word tokenizing, POS tagging other NLP tasks. 
-You can train your own model for `POS` using this dataset.
+I've also contributed to famous NLP library `SpaCy`. You can use `Urdu` word tokenizing, POS tagging and other NLP tasks. 
+You can train your own `POS` model using this dataset.
