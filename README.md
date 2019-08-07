@@ -25,7 +25,7 @@ If you want to read more about the dataset check this paper [Urdu NER](https://w
 ### Note
 NER Dataset is in `utf-16` format.
 
-## COUNTER Dataset
+## COUNTER (COrpus of Urdu News TExt Reuse) Dataset
 This dataset is collected from journalism and can be used for Urdu NLP research.
 Here is the link to the resource for more information.
 [COUNTER](http://ucrel.lancs.ac.uk/textreuse/counter.php)
