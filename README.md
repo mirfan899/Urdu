@@ -25,6 +25,11 @@ If you want to read more about the dataset check this paper [Urdu NER](https://w
 ### Note
 NER Dataset is in `utf-16` format.
 
+### COUNTER Dataset
+This dataset is collected from journalism and can be used for Urdu NLP research.
+Here is the link to the resource for more information.
+[COUNTER](http://ucrel.lancs.ac.uk/textreuse/counter.php)
+
 ## SpaCy
 I've also contributed to famous NLP library `SpaCy`. You can use `Urdu` word tokenizing, POS tagging and other NLP tasks. 
 You can train your own `POS` model using this dataset.
