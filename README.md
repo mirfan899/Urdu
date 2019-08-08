@@ -30,6 +30,18 @@ This dataset is collected from journalism and can be used for Urdu NLP research.
 Here is the link to the resource for more information.
 [COUNTER](http://ucrel.lancs.ac.uk/textreuse/counter.php)
 
+## Urdu model for SpaCy
+Urdu model for SpaCy is available now. You can use it to build NLP apps easily. Install the package in your working environment.
+```shell
+pip install ur_model-0.0.0.tar.gz
+```
+
+You can use it with following code.
+```python
+import spacy
+nlp = spacy.load("ur_model")
+doc = nlp("میں خوش ہوں کے اردو ماڈل دستیاب ہے۔ ")
+```
 ## SpaCy
 I've also contributed to famous NLP library `SpaCy`. You can use `Urdu` word tokenizing, POS tagging and other NLP tasks. 
 You can train your own `POS` model using this dataset.
