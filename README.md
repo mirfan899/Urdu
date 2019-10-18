@@ -42,6 +42,14 @@ import spacy
 nlp = spacy.load("ur_model")
 doc = nlp("میں خوش ہوں کے اردو ماڈل دستیاب ہے۔ ")
 ```
-## SpaCy
-I've also contributed to famous NLP library `SpaCy`. You can use `Urdu` word tokenizing, POS tagging and other NLP tasks. 
-You can train your own `POS` model using this dataset.
+
+### NLP Tutorials for Urdu
+Checkout my articles related to Urdu NLP tasks
+* POS Tagging [Urdu POS Tagging using MLP](https://www.urdunlp.com/2019/04/urdu-pos-tagging-using-mlp.html)
+* NER [How to build NER dataset for Urdu language?](https://www.urdunlp.com/2019/08/how-to-build-ner-dataset-for-urdu.html), [Named Entity Recognition for Urdu](https://www.urdunlp.com/2019/05/named-entity-recognition-for-urdu.html)
+* Word 2 Vector [How to build Word 2 Vector for Urdu language](https://www.urdunlp.com/2019/08/how-to-build-word-2-vector-for-urdu.html)
+* Word and Sentence Similarity [Urdu Word and Sentence Similarity using SpaCy](https://www.urdunlp.com/2019/08/urdu-word-and-sentence-similarity-using.html)
+* Tokenization [Urdu Tokenization using SpaCy](https://www.urdunlp.com/2019/05/urdu-tokenization-usingspacy.html)
+* Urdu Language Model [How to build Urdu language model in SpaCy](https://www.urdunlp.com/2019/08/how-to-build-urdu-language-model-in.html)
+
+These articles are available on [UrduNlp](https://www.urdunlp.com/).
