@@ -30,6 +30,14 @@ This dataset is collected from journalism and can be used for Urdu NLP research.
 Here is the link to the resource for more information.
 [COUNTER](http://ucrel.lancs.ac.uk/textreuse/counter.php)
 
+## Roman Urdu Dataset
+This dataset can be used for sentiment analysis for Roman Urdu. It has 3 classes for classification.
+```textmate
+Neutral
+Positive
+Negative
+```
+
 ## Urdu model for SpaCy
 Urdu model for SpaCy is available now. You can use it to build NLP apps easily. Install the package in your working environment.
 ```shell
