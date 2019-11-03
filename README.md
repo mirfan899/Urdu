@@ -37,6 +37,7 @@ Neutral
 Positive
 Negative
 ```
+If you need more information about this dataset checkout the link [Roman Urdu Dataset](https://archive.ics.uci.edu/ml/datasets/Roman+Urdu+Data+Set)
 
 ## Urdu model for SpaCy
 Urdu model for SpaCy is available now. You can use it to build NLP apps easily. Install the package in your working environment.
