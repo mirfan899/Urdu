@@ -72,5 +72,5 @@ curl -LJO https://github.com/mirfan899/Urdu/blob/master/ner/uner.txt
 Command used to concatenate the files
 ```shell script
 cd ner
-cat */*.txt > uner.txt
+cat */*.txt > uner.txtcounter.txt
 ```
