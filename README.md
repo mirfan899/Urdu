@@ -22,11 +22,6 @@ DESIGNATION
 TIME
 ```
 If you want to read more about the dataset check this paper [Urdu NER](https://www.researchgate.net/profile/Ali_Daud2/publication/312218764_Named_Entity_Dataset_for_Urdu_Named_Entity_Recognition_Task/links/5877354d08ae8fce492efe1f.pdf).
-command used to concatenate the files
-```shell script
-cd ner
-cat */*.txt > uner.txt
-```
 ### Note
 NER Dataset is in `utf-16` format.
 
@@ -67,3 +62,15 @@ Checkout my articles related to Urdu NLP tasks
 * Urdu Language Model [How to build Urdu language model in SpaCy](https://www.urdunlp.com/2019/08/how-to-build-urdu-language-model-in.html)
 
 These articles are available on [UrduNLP](https://www.urdunlp.com/).
+
+### Some Helpful Tips
+If you want to get only raw files(text or code) then use curl command i.e.
+```shell script
+curl -LJO https://github.com/mirfan899/Urdu/blob/master/ner/uner.txt
+```
+
+Command used to concatenate the files
+```shell script
+cd ner
+cat */*.txt > uner.txt
+```
