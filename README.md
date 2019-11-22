@@ -22,6 +22,8 @@ DESIGNATION
 TIME
 ```
 If you want to read more about the dataset check this paper [Urdu NER](https://www.researchgate.net/profile/Ali_Daud2/publication/312218764_Named_Entity_Dataset_for_Urdu_Named_Entity_Recognition_Task/links/5877354d08ae8fce492efe1f.pdf).
+### Note
+NER Dataset is in `utf-16` format.
 
 ### MK-PUCIT Dataset
 Latest for Urdu NER is available. Check this paper for more information [MK-PUCIT](https://www.researchgate.net/publication/332653135_URDU_NAMED_ENTITY_RECOGNITION_CORPUS_GENERATION_AND_DEEP_LEARNING_APPLICATIONS).
@@ -33,9 +35,6 @@ Organization
 Person
 Location
 ```
-
-### Note
-NER Dataset is in `utf-16` format.
 
 ## COUNTER (COrpus of Urdu News TExt Reuse) Dataset
 This dataset is collected from journalism and can be used for Urdu NLP research.
