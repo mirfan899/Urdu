@@ -74,21 +74,21 @@ Checkout my articles related to Urdu NLP tasks
 
 These articles are available on [UrduNLP](https://www.urdunlp.com/).
 
-### Some Helpful Tips
+## Some Helpful Tips
 
-## Download Single file from Github
+### Download Single file from Github
 If you want to get only raw files(text or code) then use curl command i.e.
 ```shell script
 curl -LJO https://github.com/mirfan899/Urdu/blob/master/ner/uner.txt
 ```
 
-## Concatenate files
+### Concatenate files
 ```shell script
 cd data
 cat */*.txt > file_name.txt
 ```
 
-## MK-PUCIT
+### MK-PUCIT
 Concatenate files of MK-PUCIT into single file using.
 ```shell script
 cat */*.txt > file_name.txt
