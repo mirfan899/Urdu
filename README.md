@@ -22,6 +22,18 @@ DESIGNATION
 TIME
 ```
 If you want to read more about the dataset check this paper [Urdu NER](https://www.researchgate.net/profile/Ali_Daud2/publication/312218764_Named_Entity_Dataset_for_Urdu_Named_Entity_Recognition_Task/links/5877354d08ae8fce492efe1f.pdf).
+
+### MK-PUCIT Dataset
+Latest for Urdu NER is available. Check this paper for more information [MK-PUCIT](https://www.researchgate.net/publication/332653135_URDU_NAMED_ENTITY_RECOGNITION_CORPUS_GENERATION_AND_DEEP_LEARNING_APPLICATIONS).
+
+Entities used in the dataset are
+```text
+Other
+Organization
+Person
+Location
+```
+
 ### Note
 NER Dataset is in `utf-16` format.
 
@@ -64,13 +76,35 @@ Checkout my articles related to Urdu NLP tasks
 These articles are available on [UrduNLP](https://www.urdunlp.com/).
 
 ### Some Helpful Tips
+
+## Download Single file from Github
 If you want to get only raw files(text or code) then use curl command i.e.
 ```shell script
 curl -LJO https://github.com/mirfan899/Urdu/blob/master/ner/uner.txt
 ```
 
-Command used to concatenate the files
+## Concatenate files
 ```shell script
-cd ner
-cat */*.txt > uner.txt
+cd data
+cat */*.txt > file_name.txt
+```
+
+## MK-PUCIT
+Concatenate files of MK-PUCIT into single file using.
+```shell script
+cat */*.txt > file_name.txt
+```
+
+Original dataset has a bug like `Others` and `Other` which are same entities, if you want to use the dataset 
+from `dropbox` link, use following commands to clean it.
+```python
+import pandas as pd
+data = pd.read_csv('ner/mk-pucit.txt', sep='\t', names={"tag", "word"})
+data.tag.replace({"Others":"Other"}, inplace=True)
+# save according you need as csv or txt by changing the extension
+data.to_csv("ner/mk-pucit.txt", index=False, header=False, sep='\t')
+```
+Now csv/txt file has format 
+```text
+word tag
 ```
