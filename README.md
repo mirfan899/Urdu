@@ -36,6 +36,8 @@ Person
 Location
 ```
 
+`MK-PUCIT` author also provided the `Dropbox` link to download the data. [Dropbox](https://www.dropbox.com/sh/1ivw7ykm2tugg94/AAB9t5wnN7FynESpo7TjJW8la)
+
 ## COUNTER (COrpus of Urdu News TExt Reuse) Dataset
 This dataset is collected from journalism and can be used for Urdu NLP research.
 Here is the link to the resource for more information
