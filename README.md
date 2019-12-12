@@ -109,3 +109,15 @@ Now csv/txt file has format
 ```text
 word tag
 ```
+
+### Soft delete files from git(keep on disk)
+
+```shell script
+git rm --cached roman/sentiment.csv
+git rm --cached pos/test.txt pos/train.tx
+```
+
+Gunzip with Tar
+```shell script
+tar -zcvf test.txt.tar.gz test.txt
+```
