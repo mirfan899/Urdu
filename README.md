@@ -9,7 +9,10 @@ word TAG
 The tagset used to build dataset is taken from [Sajjad's Tagset](http://www.cle.org.pk/Downloads/langproc/UrduPOStagger/UrduPOStagset.pdf)
 To get large dataset, you need to purchase the license. Contact: `virtuoso.irfan@gmail.com`
 
-## UNER Dataset
+## NER Dataset
+Following are the datasets used for NER tasks.
+
+### UNER Dataset
 Happy to announce that UNER (Urdu Named Entity Recognition) dataset is available for NLP apps.
 Following are NER tags which are used to build the dataset:
 ```text
@@ -22,7 +25,6 @@ DESIGNATION
 TIME
 ```
 If you want to read more about the dataset check this paper [Urdu NER](https://www.researchgate.net/profile/Ali_Daud2/publication/312218764_Named_Entity_Dataset_for_Urdu_Named_Entity_Recognition_Task/links/5877354d08ae8fce492efe1f.pdf).
-### Note
 NER Dataset is in `utf-16` format.
 
 ### MK-PUCIT Dataset
@@ -38,12 +40,8 @@ Location
 
 `MK-PUCIT` author also provided the `Dropbox` link to download the data. [Dropbox](https://www.dropbox.com/sh/1ivw7ykm2tugg94/AAB9t5wnN7FynESpo7TjJW8la)
 
-## COUNTER (COrpus of Urdu News TExt Reuse) Dataset
-This dataset is collected from journalism and can be used for Urdu NLP research.
-Here is the link to the resource for more information
-[COUNTER](http://ucrel.lancs.ac.uk/textreuse/counter.php).
-
-## Roman Urdu Dataset
+## Datasets for Sentiment Analysis
+### roman Dataset
 This dataset can be used for sentiment analysis for Roman Urdu. It has 3 classes for classification.
 ```textmate
 Neutral
@@ -51,6 +49,22 @@ Positive
 Negative
 ```
 If you need more information about this dataset checkout the link [Roman Urdu Dataset](https://archive.ics.uci.edu/ml/datasets/Roman+Urdu+Data+Set).
+
+### urdu Dataset
+Here is a small dataset for sentiment analysis. It has following classifying labels 
+```
+P
+N
+O
+```
+Link to the paper[Urdu Corpus V1](https://www.researchgate.net/publication/338396518_Urdu_Sentiment_Corpus_v10_Linguistic_Exploration_and_Visualization_of_Labeled_Dataset_for_Urdu_Sentiment_Analysis)
+Github link to data[Urdu Corpus V1](https://github.com/MuhammadYaseenKhan/Urdu-Sentiment-Corpus)
+
+### RAW corpus and models
+## COUNTER (COrpus of Urdu News TExt Reuse) Dataset
+This dataset is collected from journalism and can be used for Urdu NLP research.
+Here is the link to the resource for more information
+[COUNTER](http://ucrel.lancs.ac.uk/textreuse/counter.php).
 
 ## Urdu model for SpaCy
 Urdu model for SpaCy is available now. You can use it to build NLP apps easily. Install the package in your working environment.
