@@ -52,12 +52,12 @@ If you need more information about this dataset checkout the link [Roman Urdu Da
 
 ### urdu Dataset
 Here is a small dataset for sentiment analysis. It has following classifying labels 
-```
+```textmate
 P
 N
 O
 ```
-Link to the paper [Urdu Corpus V1](https://www.researchgate.net/publication/338396518_Urdu_Sentiment_Corpus_v10_Linguistic_Exploration_and_Visualization_of_Labeled_Dataset_for_Urdu_Sentiment_Analysis)
+Link to the paper [Paper](https://www.researchgate.net/publication/338396518_Urdu_Sentiment_Corpus_v10_Linguistic_Exploration_and_Visualization_of_Labeled_Dataset_for_Urdu_Sentiment_Analysis)
 Github link to data [Urdu Corpus V1](https://github.com/MuhammadYaseenKhan/Urdu-Sentiment-Corpus)
 
 ### RAW corpus and models
@@ -123,3 +123,6 @@ Now csv/txt file has format
 ```text
 word tag
 ```
+
+## Note
+If you have a dataset(link) and want to contribute, feel free to create PR.
