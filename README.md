@@ -41,6 +41,14 @@ Location
 `MK-PUCIT` author also provided the `Dropbox` link to download the data. [Dropbox](https://www.dropbox.com/sh/1ivw7ykm2tugg94/AAB9t5wnN7FynESpo7TjJW8la)
 
 ## Datasets for Sentiment Analysis
+### IMDB Urdu Movie Review Dataset.
+This dataset is taken from [IMDB Urdu](https://www.kaggle.com/akkefa/imdb-dataset-of-50k-movie-translated-urdu-reviews).
+It was translated using Google Translator. It has only two labels i.e.
+```text
+positive
+negative.
+```
+
 ### roman Dataset
 This dataset can be used for sentiment analysis for Roman Urdu. It has 3 classes for classification.
 ```textmate
@@ -50,7 +58,7 @@ Negative
 ```
 If you need more information about this dataset checkout the link [Roman Urdu Dataset](https://archive.ics.uci.edu/ml/datasets/Roman+Urdu+Data+Set).
 
-### urdu Dataset
+### Urdu Dataset
 Here is a small dataset for sentiment analysis. It has following classifying labels 
 ```textmate
 P
