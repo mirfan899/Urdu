@@ -46,7 +46,7 @@ This dataset is taken from [IMDB Urdu](https://www.kaggle.com/akkefa/imdb-datase
 It was translated using Google Translator. It has only two labels i.e.
 ```text
 positive
-negative.
+negative
 ```
 
 ### roman Dataset
