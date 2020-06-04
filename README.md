@@ -68,6 +68,18 @@ O
 Link to the paper [Paper](https://www.researchgate.net/publication/338396518_Urdu_Sentiment_Corpus_v10_Linguistic_Exploration_and_Visualization_of_Labeled_Dataset_for_Urdu_Sentiment_Analysis)
 Github link to data [Urdu Corpus V1](https://github.com/MuhammadYaseenKhan/Urdu-Sentiment-Corpus)
 
+### News Datasets
+## Fake News dataset
+This dataset is used for classification of real and fake news in [Fake News Dataset](https://github.com/MaazAmjad/Datasets-for-Urdu-news) 
+Dataset contains following domain news.
+```text
+technology 
+education 
+business
+sports
+politics
+entertainment
+```
 ### RAW corpus and models
 ## COUNTER (COrpus of Urdu News TExt Reuse) Dataset
 This dataset is collected from journalism and can be used for Urdu NLP research.
