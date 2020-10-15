@@ -73,12 +73,12 @@ Github link to data [Urdu Corpus V1](https://github.com/MuhammadYaseenKhan/Urdu-
 This dataset is used for classification of real and fake news in [Fake News Dataset](https://github.com/MaazAmjad/Datasets-for-Urdu-news) 
 Dataset contains following domain news.
 ```text
-technology 
-education 
-business
-sports
-politics
-entertainment
+Technology 
+Education 
+Business
+Sports
+Politics
+Entertainment
 ```
 ### RAW corpus and models
 ## COUNTER (COrpus of Urdu News TExt Reuse) Dataset
