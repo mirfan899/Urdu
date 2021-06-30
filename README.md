@@ -71,7 +71,7 @@ Github link to data [Urdu Corpus V1](https://github.com/MuhammadYaseenKhan/Urdu-
 ## News Datasets
 ### Urdu News Dataset 1M
 This dataset(`news/urdu-news-dataset-1M.tar.xz`) is taken from [Urdu News Dataset 1M](https://data.mendeley.com/datasets/834vsxnb99/3). It has 4 classes and can be used for classification
-and other NLP tasks.
+and other NLP tasks. I have removed unnecessary columns.
 ```text
 Business & Economics
 Entertainment
