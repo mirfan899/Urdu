@@ -9,7 +9,7 @@ word TAG
 The tagset used to build dataset is taken from [Sajjad's Tagset](http://www.cle.org.pk/Downloads/langproc/UrduPOStagger/UrduPOStagset.pdf)
 To get large dataset, you need to purchase the license. Contact: `virtuoso.irfan@gmail.com`
 
-## NER Dataset
+## NER Datasets
 Following are the datasets used for NER tasks.
 
 ### UNER Dataset
@@ -68,8 +68,18 @@ O
 Link to the paper [Paper](https://www.researchgate.net/publication/338396518_Urdu_Sentiment_Corpus_v10_Linguistic_Exploration_and_Visualization_of_Labeled_Dataset_for_Urdu_Sentiment_Analysis)
 Github link to data [Urdu Corpus V1](https://github.com/MuhammadYaseenKhan/Urdu-Sentiment-Corpus)
 
-### News Datasets
-## Real-Fake News dataset
+## News Datasets
+### Urdu News Dataset 1M
+This dataset(`news/urdu-news-dataset-1M.tar.xz`) is taken from [Urdu News Dataset 1M](https://data.mendeley.com/datasets/834vsxnb99/3). It has 4 classes and can be used for classification
+and other NLP tasks.
+```text
+Business & Economics
+Entertainment
+Science & Technology
+Sports
+```
+
+### Real-Fake News dataset
 This dataset(`news/real_fake_news.tar.gz`) is used for classification of real and fake news in [Fake News Dataset](https://github.com/MaazAmjad/Datasets-for-Urdu-news) 
 Dataset contains following domain news.
 ```text
@@ -82,7 +92,6 @@ Entertainment
 ```
 
 ### News Headlines
-## Headlines with category
 Headlines(`news/headlines.csv.tar.gz`) dataset is taken from [Urd News Headlines](https://github.com/mwaseemrandhawa/Urdu-News-Headline-Dataset). Original dataset is in Excel format,
 I've converted to csv for experiments. Can be used for clustering and classification.
 ### RAW corpus and models
