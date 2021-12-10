@@ -49,7 +49,7 @@ positive
 negative
 ```
 
-### roman Dataset
+### Roman Dataset
 This dataset can be used for sentiment analysis for Roman Urdu. It has 3 classes for classification.
 ```textmate
 Neutral
@@ -57,6 +57,15 @@ Positive
 Negative
 ```
 If you need more information about this dataset checkout the link [Roman Urdu Dataset](https://archive.ics.uci.edu/ml/datasets/Roman+Urdu+Data+Set).
+
+### Products & Services dataset
+This dataset is collected from different sources like social media and web for various products and services for sentiment analysis.
+It contains 3 classes.
+```textmate
+pos
+neg
+neu
+```
 
 ### Urdu Dataset
 Here is a small dataset for sentiment analysis. It has following classifying labels 
