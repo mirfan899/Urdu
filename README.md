@@ -1,3 +1,22 @@
+## Summary Dataset
+This a summary dataset. You can train abstractive summarization model using this dataset. It contains 3 files i.e.
+`train`, `test` and `val`. Data is in `jsonl` format.
+
+Every `line` has these keys.
+```text
+id
+url
+title
+summary
+text
+```
+
+You can easily read the data with pandas
+```python
+import pandas as pd
+test = pd.read_json("summary/urdu_test.jsonl", lines=True)
+```
+
 ## POS dataset
 Urdu dataset for POS training. This is a small dataset and can be used for training parts of speech tagging for Urdu Language.
 Structure of the dataset is simple i.e.
@@ -75,7 +94,7 @@ N
 O
 ```
 Link to the paper [Paper](https://www.researchgate.net/publication/338396518_Urdu_Sentiment_Corpus_v10_Linguistic_Exploration_and_Visualization_of_Labeled_Dataset_for_Urdu_Sentiment_Analysis)
-Github link to data [Urdu Corpus V1](https://github.com/MuhammadYaseenKhan/Urdu-Sentiment-Corpus)
+GitHub link to data [Urdu Corpus V1](https://github.com/MuhammadYaseenKhan/Urdu-Sentiment-Corpus)
 
 ## News Datasets
 ### Urdu News Dataset 1M
@@ -88,7 +107,7 @@ Science & Technology
 Sports
 ```
 
-### Real-Fake News dataset
+### Real-Fake News
 This dataset(`news/real_fake_news.tar.gz`) is used for classification of real and fake news in [Fake News Dataset](https://github.com/MaazAmjad/Datasets-for-Urdu-news) 
 Dataset contains following domain news.
 ```text
