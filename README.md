@@ -87,7 +87,7 @@ neu
 ```
 
 
-### Dara Products dataset
+### Daraz Products dataset
 This dataset consists of reviews taken from Daraz. You can use it for sentiment analysis as well as spam or ham classification.
 It contains following columns.
 ```text
