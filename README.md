@@ -86,6 +86,22 @@ neg
 neu
 ```
 
+
+### Dara Products dataset
+This dataset consists of reviews taken from Daraz. You can use it for sentiment analysis as well as spam or ham classification.
+It contains following columns.
+```text
+Product_ID
+Date
+Rating
+Spam(1) and Not Spam(0)
+Reviews
+Sentiment
+Features
+```
+Dataset is taken from [kaggle daraz](https://www.kaggle.com/datasets/naveedhn/daraz-roman-urdu-reviews)
+
+
 ### Urdu Dataset
 Here is a small dataset for sentiment analysis. It has following classifying labels 
 ```textmate
@@ -154,7 +170,7 @@ These articles are available on [UrduNLP](https://www.urdunlp.com/).
 
 ## Some Helpful Tips
 
-### Download Single file from Github
+### Download Single file from GitHub
 If you want to get only raw files(text or code) then use curl command i.e.
 ```shell script
 curl -LJO https://github.com/mirfan899/Urdu/blob/master/ner/uner.txt
