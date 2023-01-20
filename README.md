@@ -59,6 +59,30 @@ Location
 
 `MK-PUCIT` author also provided the `Dropbox` link to download the data. [Dropbox](https://www.dropbox.com/sh/1ivw7ykm2tugg94/AAB9t5wnN7FynESpo7TjJW8la)
 
+### IJNLP 2008 dataset
+IJNLP dataset has following NER tags.
+```text
+O
+LOCATION
+PERSON
+TIME
+ORGANIZATION
+NUMBER
+DESIGNATION
+```
+
+### Jahangir dataset
+Jahangir dataset has following NER tags.
+```text
+O
+PERSON
+LOCATION
+ORGANIZATION
+DATE
+TIME
+```
+
+
 ## Datasets for Sentiment Analysis
 ### IMDB Urdu Movie Review Dataset.
 This dataset is taken from [IMDB Urdu](https://www.kaggle.com/akkefa/imdb-dataset-of-50k-movie-translated-urdu-reviews).
