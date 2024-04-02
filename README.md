@@ -26,7 +26,6 @@ word TAG
 ```
 
 The tagset used to build dataset is taken from [Sajjad's Tagset](http://www.cle.org.pk/Downloads/langproc/UrduPOStagger/UrduPOStagset.pdf)
-To get large dataset, you need to purchase the license. Contact: `virtuoso.irfan@gmail.com`
 
 ## NER Datasets
 Following are the datasets used for NER tasks.
