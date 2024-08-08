@@ -167,6 +167,10 @@ This dataset is collected from journalism and can be used for Urdu NLP research.
 Here is the link to the resource for more information
 [COUNTER](http://ucrel.lancs.ac.uk/textreuse/counter.php).
 
+## QA datasets
+I have added two qa datasets for if someone wants to use it for QA based Chatbot. QA(Ahadis): `qa_ahadis.csv` It contains qa pairs for Ahadis.
+
+The dataset `qa_gs.csv` it contains the general knowledge QA.
 ## Urdu model for SpaCy
 Urdu model for SpaCy is available now. You can use it to build NLP apps easily. Install the package in your working environment.
 ```shell
